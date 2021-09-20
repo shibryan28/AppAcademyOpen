@@ -1,0 +1,41 @@
+# Conditionals
+
+num = 8
+
+if num > 0
+    puts "positive"
+end # => positive
+
+if num % 2 == 0
+    puts "even"
+end # => even
+
+num = 9
+
+if num > 0
+    puts "positive"
+end
+
+if num % 2 == 0
+    puts "even"
+end # => even
+
+num = -6
+
+if num > 0
+    puts "positive"
+end
+
+if num % 2 == 0
+    puts "even"
+end # => even
+
+num = 8
+
+if num > 0
+    puts "positive"
+elsif num % 2 == 0
+    puts "even"
+end # => positive
+
+# else or els makes the conditions exclusive
